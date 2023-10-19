@@ -208,31 +208,34 @@ svg {
 .logo-svg:hover .logo-type {
   transition-delay: 388.5ms;
 }
-.logo-svg:hover .logo-type-code-c {
+.logo-svg:hover .logo-type-code-A {
   transition-delay: 444ms;
 }
-.logo-svg:hover .logo-type-code-o {
+.logo-svg:hover .logo-type-code-K {
   transition-delay: 471.75ms;
 }
-.logo-svg:hover .logo-type-code-d {
+.logo-svg:hover .logo-type-code-O {
   transition-delay: 499.5ms;
 }
-.logo-svg:hover .logo-type-code-e {
+.logo-svg:hover .logo-type-code-M {
   transition-delay: 527.25ms;
 }
-.logo-svg:hover .logo-type-motel-m {
+.logo-svg:hover .logo-type-motel-I {
   transition-delay: 444ms;
+}
+.logo-svg:hover .logo-type-motel-L {
+  transition-delay: 471.75ms;
 }
 .logo-svg:hover .logo-type-motel-o {
   transition-delay: 471.75ms;
 }
-.logo-svg:hover .logo-type-motel-t {
+.logo-svg:hover .logo-type-motel-V {
   transition-delay: 499.5ms;
 }
-.logo-svg:hover .logo-type-motel-e {
+.logo-svg:hover .logo-type-motel-S {
   transition-delay: 527.25ms;
 }
-.logo-svg:hover .logo-type-motel-l {
+.logo-svg:hover .logo-type-motel-G {
   transition-delay: 555ms;
 }
 /* ----------------------------------------------------------------- */
