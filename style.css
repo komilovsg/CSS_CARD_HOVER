@@ -28,7 +28,7 @@ body {
 
 .container .card .face {
   width: 300px;
-  height: 200px;
+  height: 250px;
   transition: 0.4s;
 }
 
@@ -122,122 +122,7 @@ a {
 }
 
 /* ---------------------------------------------------------------- */
-h5 {
-  font-family: Helvetica, sans-serif;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  text-shadow: 0.15em 0.15em 0 #222;
-  color: #777;
-  background: #333;
-  width: 15em;
-  margin: 3em auto;
-  padding: 0.75em 0;
-}
 
-svg {
-  margin-top: 80px;
-}
-
-[class*="logo-"] {
-  -webkit-transition: all 333ms ease-out;
-  -moz-transition: all 333ms ease-out;
-  -o-transition: all 333ms ease-out;
-  transition: all 333ms ease-out;
-}
-
-.logo-svg {
-  margin-left: 7.3em;
-  transition-delay: 222ms;
-}
-
-.logo-c {
-  fill: #555;
-  transition-delay: 444ms;
-}
-
-[class*="logo-m-left-"] {
-  transition-delay: 388.5ms;
-}
-
-.logo-m-left-1 {
-  fill: #555;
-}
-
-.logo-m-left-2 {
-  opacity: 0.4;
-  fill: #555;
-}
-
-.logo-m-right {
-  fill: #555;
-  transition-delay: 333ms;
-}
-
-.logo-type {
-  opacity: 0;
-  transition-delay: 0ms;
-}
-
-.logo-svg:hover {
-  margin-left: 0;
-  transition-delay: 0ms;
-}
-.logo-svg:hover .logo-c {
-  fill: #27aae1;
-  transition-delay: 222ms;
-}
-.logo-svg:hover [class*="logo-m-left-"] {
-  transition-delay: 277.5ms;
-}
-.logo-svg:hover .logo-m-left-1 {
-  fill: #ec008c;
-}
-.logo-svg:hover .logo-m-left-2 {
-  opacity: 0.4;
-  fill: #ec008c;
-}
-.logo-svg:hover .logo-m-right {
-  fill: #f9ed32;
-  transition-delay: 333ms;
-}
-.logo-svg:hover .logo-type-group .logo-type {
-  fill: white;
-  opacity: 1;
-}
-.logo-svg:hover .logo-type {
-  transition-delay: 388.5ms;
-}
-.logo-svg:hover .logo-type-code-A {
-  transition-delay: 444ms;
-}
-.logo-svg:hover .logo-type-code-K {
-  transition-delay: 471.75ms;
-}
-.logo-svg:hover .logo-type-code-O {
-  transition-delay: 499.5ms;
-}
-.logo-svg:hover .logo-type-code-M {
-  transition-delay: 527.25ms;
-}
-.logo-svg:hover .logo-type-motel-I {
-  transition-delay: 444ms;
-}
-.logo-svg:hover .logo-type-motel-L {
-  transition-delay: 471.75ms;
-}
-.logo-svg:hover .logo-type-motel-o {
-  transition-delay: 471.75ms;
-}
-.logo-svg:hover .logo-type-motel-V {
-  transition-delay: 499.5ms;
-}
-.logo-svg:hover .logo-type-motel-S {
-  transition-delay: 527.25ms;
-}
-.logo-svg:hover .logo-type-motel-G {
-  transition-delay: 555ms;
-}
 /* ----------------------------------------------------------------- */
 
 @import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
@@ -335,3 +220,270 @@ svg {
   opacity: 1;
   transition-delay: 400ms;
 }
+/* --------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+section{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background-color: var(--bg);
+	color: var(--fg);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+    margin-top: 50px;
+   } 
+  h2{
+    font-size:2em;
+    color:#fff;
+    text-transform:uppercase;
+    text-align:center;
+    display:flex;
+    cursor: pointer;
+   } 
+  h2 span{
+    transition:1.5s;
+   } 
+  h2:hover span{
+    filter:blur(20px);
+    opacity:0;
+    transform:scale(2);
+   } 
+  h2 span:nth-child(10n+1){
+  transition-delay:0s;
+  }
+  
+  h2 span:nth-child(10n+2){
+  transition-delay:0.1s;
+  }
+  
+  h2 span:nth-child(10n+3){
+  transition-delay:0.2s;
+  }
+  
+  h2 span:nth-child(10n+4){
+  transition-delay:0.3s;
+  }
+  
+  h2 span:nth-child(10n+5){
+  transition-delay:0.4s;
+  }
+  
+  h2 span:nth-child(10n+6){
+  transition-delay:0.5s;
+  }
+  
+  h2 span:nth-child(10n+7){
+  transition-delay:0.6s;
+  }
+  
+  h2 span:nth-child(10n+8){
+  transition-delay:0.7s;
+  }
+  
+  h2 span:nth-child(10n+9){
+  transition-delay:0.8s;
+  }
+  
+  h2 span:nth-child(10n+10){
+  transition-delay:0.9s;
+  }
+  
+  h2 span:nth-child(10n+11){
+  transition-delay:1s;
+  }
+  
+  h2 span:nth-child(10n+12){
+  transition-delay:1.1s;
+  }
+  
+  h2 span:nth-child(10n+13){
+  transition-delay:1.2s;
+  }
+  
+  h2 span:nth-child(10n+14){
+  transition-delay:1.3s;
+  }
+  
+  h2 span:nth-child(10n+15){
+  transition-delay:1.4s;
+  }
+
+  /* ----------PRELOADER----------------------------------------- */
+  :root {
+	--hue: 223;
+	--bg: hsl(var(--hue),90%,95%);
+	--fg: hsl(var(--hue),90%,5%);
+	--trans-dur: 0.3s;
+	font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1280 - 320));
+}
+body {
+	background-color: var(--bg);
+	color: var(--fg);
+	font: 1em/1.5 sans-serif;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	transition: background-color var(--trans-dur);
+}
+main {
+	padding: 1.5em 0;
+}
+.ip {
+	width: 16em;
+	height: 8em;
+}
+.ip__track {
+	stroke: hsl(var(--hue),90%,90%);
+	transition: stroke var(--trans-dur);
+}
+.ip__worm1,
+.ip__worm2 {
+	animation: worm1 2s linear infinite;
+}
+.ip__worm2 {
+	animation-name: worm2;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: hsl(var(--hue),90%,5%);
+		--fg: hsl(var(--hue),90%,95%);
+	}
+	.ip__track {
+		stroke: hsl(var(--hue),90%,15%);
+	}
+}
+
+/* Animation */
+@keyframes worm1 {
+	from {
+		stroke-dashoffset: 0;
+	}
+	50% {
+		animation-timing-function: steps(1);
+		stroke-dashoffset: -358;
+	}
+	50.01% {
+		animation-timing-function: linear;
+		stroke-dashoffset: 358;
+	}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+@keyframes worm2 {
+	from {
+		stroke-dashoffset: 358;
+	}
+	50% {
+		stroke-dashoffset: 0;
+	}
+	to {
+		stroke-dashoffset: -358;
+	}
+}
+/* -------------------------------------------pre  */
+/* Стили для создания стрелки */
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .arrow-down {
+    width: 32px;
+    height: 32px;
+    border: solid rgb(249, 246, 246);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  /* Стили для скрытия содержимого SVG */
+  
+  .preloader {
+    position: relative;
+  }
+  
+  .preloader:not(:hover) .overlay {
+    opacity: 1;
+  }
+  
+  .preloader:not(:hover) svg.ip {
+    visibility: hidden;
+  }
+  /* -------------------------- */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+   
+.center{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+   }
+  .ring{
+    position:absolute;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    animation:ring 2s linear infinite;
+    }
+  @keyframes ring{
+    0%{
+      transform:rotate(0deg);
+      box-shadow:1px 5px 2px #e65c00;
+      }
+    50%{
+      transform:rotate(180deg);
+  
+      box-shadow:1px 5px 2px #18b201;
+      }
+    100%{
+      transform:rotate(360deg);
+      box-shadow:1px 5px 2px #0456c8;
+      }
+   } 
+  .ring:before{
+    position:absolute;
+    content:'';
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    box-shadow:0px 0px 5px rgba(255,255,255,0.3);
+    }
+  span{
+    color:#737373;
+    font-size:20px;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    line-height:200px;
+    animation:text 2s linear infinite;
+   } 
+  @keyframes text{
+    0%{
+      color:#e65c00;
+      }
+    50%{
+      color:#18b201;
+      }
+    100%{
+      color:#0456c8;
+      }
+   } 
